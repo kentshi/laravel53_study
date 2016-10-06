@@ -6,17 +6,18 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Laravel</title>
-
+        
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Raleway:100,600" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="{{ elixir('css/app.css') }}"/>
 
         <!-- Styles -->
         @yield('header')
     </head>
     <body>
-        
-        @yield('content')
-        
+        <div class="container">
+            @yield('content')
+        </div>
         
         @yield('footer')
     </body>
