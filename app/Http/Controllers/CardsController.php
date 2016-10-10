@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Models\Card;
+use App\Models\User;
 use DB;
 use Illuminate\Http\Request;
 use App\Http\Requests;
@@ -20,7 +21,7 @@ class CardsController extends Controller
     public function show(Card $card)
     {
         $card->load('notes.user');
-        
-        return view('cards.show', compact('card'));
+        $users = User::all();
+        return view('cards.show', array('card' => $card, 'users' => $users));
     }
 }

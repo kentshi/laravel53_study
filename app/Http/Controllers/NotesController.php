@@ -52,4 +52,9 @@ class NotesController extends Controller
         
         return back();
     }
+    
+    public function destroy(Note $note)
+    {
+        $note->delete();
+    }
 }

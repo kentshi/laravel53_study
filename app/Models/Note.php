@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Note extends Model
 {
     //
-    protected $fillable = ['body'];
+    protected $fillable = ['body', 'user_id'];
     
     public function card()
     {
