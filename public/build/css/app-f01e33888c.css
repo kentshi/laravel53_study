@@ -5766,12 +5766,4 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
-body {
-  color: #f00;
-  font-size: 28px; }
-  body h1 {
-    font-size: 70px;
-    color: purple;
-    text-decoration: underline; }
-
 /*# sourceMappingURL=app.css.map */
