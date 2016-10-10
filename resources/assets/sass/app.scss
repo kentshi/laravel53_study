@@ -7,3 +7,14 @@
 
 // Bootstrap
 @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+body{
+    color: $red;
+    font-size: $font-size-base * 2;
+    
+    h1{
+        font-size: $font-size-base * 5;
+        color: $primary-color;
+        text-decoration: underline;
+    }
+}
