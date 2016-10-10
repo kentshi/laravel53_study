@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Note;
-use App\Card;
+use App\Models\Note;
+use App\Models\Card;
 use App\Http\Requests;
 
 class NotesController extends Controller

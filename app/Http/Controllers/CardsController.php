@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\Card;
+use App\Models\Card;
 use DB;
 use Illuminate\Http\Request;
 use App\Http\Requests;
